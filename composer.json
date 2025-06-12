@@ -1,0 +1,32 @@
+{
+    "name": "zakariatlilani/nova-nested-tree",
+    "description": "Nova vue-tree-select field for management nested category relations.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "belongs-to-many",
+        "nested-sets"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "kalnoy/nestedset": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZakariaTlilani\\NovaNestedTree\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ZakariaTlilani\\NovaNestedTree\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
